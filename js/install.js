@@ -1,5 +1,10 @@
-/*
+if ('serviceWorker' in navigator ) {
+  navigator.serviceWorker.register('sw.js', {
+    scope: './'
+  }).then(function(reg) {
 
-  Desafio: use esse arquivo pra disparar a instalação do Service Worker.
+   
+  }).catch(function(e) {
+  });
   
- */
+}

@@ -1,8 +1,13 @@
-/*
+$(document).ready(function() {
 
-	Desafio: implemente uma navegação via Ajax estilo SPA.
-	Dá pra fazer com jQuery interceptando os cliques e carregando os conteúdos;
+	// convert all a/href to a#href
+	$("body").delegate("a", "click", function(){
+		var href = $(this).attr("href"); // modify the selector here to change the scope of intercpetion
+		
+		 // Push this URL "state" onto the history hash.
+		$.bbq.pushState(href,2);
 
-	Bonus points: faça uma transição de tela com CSS entre um estado e outro!
-
- */
+		// Prevent the default click behavior.
+		return false;
+	});
+});
