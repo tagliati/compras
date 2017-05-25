@@ -10,4 +10,5 @@ $(document).ready(function() {
 		// Prevent the default click behavior.
 		return false;
 	});
+	console.log("ops");
 });
