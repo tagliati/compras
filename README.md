@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Desafios de PWA
 
 Esse projeto contém um site estático bem simples. A ideia é transformá-lo em uma PWA
@@ -59,3 +60,6 @@ Use a [Payment Request API](https://developers.google.com/web/fundamentals/disco
 ----
 
 Algumas dessas coisas estão funcionando no [repositório oficial do projeto](https://github.com/sergiolopes/shopping). Você pode também [acessar direto no dispositivo](https://sergiolopes.github.io/shopping/).
+=======
+# compras
+>>>>>>> d523cd67c8a5c2eac9107e5d4f82fe523ceb4919
